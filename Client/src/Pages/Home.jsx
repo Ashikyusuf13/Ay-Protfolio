@@ -108,7 +108,9 @@ const Home = () => {
           variants={smallItem}
           className="transition-transform duration-300 hover:rotate-12"
         >
-          <FaLinkedinIn className="text-white text-3xl cursor-pointer hover:text-yellow-400 transition-colors duration-300" />
+          <a href="https://www.linkedin.com/in/ashikyusuf13">
+            <FaLinkedinIn className="text-white text-3xl cursor-pointer hover:text-yellow-400 transition-colors duration-300 outline-none" />
+          </a>
         </motion.div>
 
         {/* GitHub Icon */}
@@ -116,7 +118,9 @@ const Home = () => {
           variants={smallItem}
           className="transition-transform duration-300 hover:rotate-12"
         >
-          <FaGithub className="text-white text-3xl cursor-pointer hover:text-yellow-400 transition-colors duration-300" />
+          <a href="https://github.com/Ashikyusuf13">
+            <FaGithub className="text-white text-3xl cursor-pointer hover:text-yellow-400 transition-colors duration-300  outline-none" />
+          </a>
         </motion.div>
       </motion.div>
     </motion.section>

@@ -9,7 +9,6 @@ import Contact from "./Pages/Contact";
 import Footer from "./Components/Footer";
 import { Toaster } from "react-hot-toast";
 import AllProjects from "./Pages/AllProjects";
-import CustomCursor from "./Components/CustomCursor";
 
 const App = () => {
   const location = useLocation();
@@ -21,7 +20,6 @@ const App = () => {
     >
       <Toaster />
 
-      <CustomCursor />
       {location.pathname === "/allprojects" ? null : <Navbar />}
 
       <Routes>

@@ -10,21 +10,6 @@
   font-family: "Inter", sans-serif;
 }
 
-/* Hide default cursor and use custom cursor except on touch devices */
-@media (pointer: fine) {
-  body, 
-  button,
-  a,
-  input,
-  textarea,
-  select,
-  img,
-  label,
-  [role="button"] {
-    cursor: none !important;
-  }
-}
-
 /* Enable smooth scrolling for supported browsers and respect reduced motion */
 html {
   scroll-behavior: smooth;
