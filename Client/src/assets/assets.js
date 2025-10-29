@@ -17,6 +17,7 @@ import moon_icon from './moon_icon.svg'
 import Ashikimg from "./ashik_photo.png"
 import qrcode from "./qrcode_webpage.jpg"
 import tailwind from "./tailwindlogo.png"
+import Password_generator from "./passgen_webpage.jpg"
 
 const assets = {
   arrow_icon,
@@ -38,6 +39,7 @@ const assets = {
   moon_icon,
   Ashikimg,
   Ademy,
+  Password_generator,
 }
 
 export default assets

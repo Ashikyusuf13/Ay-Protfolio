@@ -30,6 +30,27 @@ const AllProjects = () => {
       imageUrl: assets.Ecormerce,
       projectUrl: "https://shirtzone.netlify.app/",
     },
+    {
+      title: "STRONG PASSWORD GENERATOR",
+      description:
+        "A web application that generates strong and secure passwords based on user-defined criteria. Users can specify the length and character types (uppercase, lowercase, numbers, symbols) to create customized passwords for enhanced security.",
+      imageUrl: assets.Password_generator,
+      projectUrl: "https://zeroguess.netlify.app",
+    },
+    {
+      title: "QR Code Generator",
+      description:
+        "A web application that allows users to generate QR codes for various types of data, such as URLs, text, contact information, and more. Users can customize the design and download the generated QR codes for personal or business use.",
+      imageUrl: assets.qrcode,
+      projectUrl: "https://scanspark.netlify.app",
+    },
+    {
+      title: "Currency Converter",
+      description:
+        "A web application that provides real-time currency conversion rates between different currencies. Users can input an amount in one currency and receive the equivalent value in another currency based on the latest exchange rates.",
+      imageUrl: assets.currency,
+      projectUrl: "https://globarate.netlify.app",
+    },
   ];
 
   return (
@@ -99,7 +120,7 @@ const AllProjects = () => {
           <motion.article
             key={idx}
             variants={item}
-            className="w-full max-w-lg mx-auto bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transform transition duration-300"
+            className="w-full  max-w-lg mx-auto bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transform transition duration-300"
           >
             <a
               href={project.projectUrl}
