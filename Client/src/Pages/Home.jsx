@@ -66,8 +66,8 @@ const Home = () => {
                 then use a root-relative href so the browser can download it. */}
             <motion.a
               variants={smallItem}
-              href="/ASHIK_YUSUF_CTS.docx"
-              download="ASHIK_YUSUF_RESUME.docx"
+              href="/ASHIK_YUSUF_CV.docx"
+              download="ASHIK_YUSUF_CV.docx"
               className="px-6 py-3 text-white bg-blue-600 hover:bg-blue-800 font-semibold rounded-full hover:scale-105 transition-transform duration-300"
             >
               Download CV
