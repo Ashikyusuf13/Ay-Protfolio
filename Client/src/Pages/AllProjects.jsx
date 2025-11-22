@@ -20,6 +20,13 @@ const AllProjects = () => {
       imageUrl: assets.Ademy,
       projectUrl: "https://ay-ademy.vercel.app/",
     },
+    {
+      title: "AY-GPT",
+      description:
+        "Ashik GPT is a MERN-based AI platform with Gemini/OpenAI chat, ImageKit image generation, Stripe payments, JWT authentication, encrypted passwords, and secure middleware-protected APIs.",
+      imageUrl: assets.Aygpt,
+      projectUrl: "https://ashik-gpt.vercel.app",
+    },
   ];
 
   const Projects2 = [
