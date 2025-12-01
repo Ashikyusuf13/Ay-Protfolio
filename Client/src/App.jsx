@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import Home from "./Pages/Home";
@@ -9,9 +9,23 @@ import Contact from "./Pages/Contact";
 import Footer from "./Components/Footer";
 import { Toaster } from "react-hot-toast";
 import AllProjects from "./Pages/AllProjects";
+import Loading from "./Components/Loading";
 
 const App = () => {
   const location = useLocation();
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const time = setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+
+    return () => clearTimeout(time);
+  }, []);
+
+  if (loading) {
+    return <Loading />;
+  }
   return (
     <div
       className="min-w-screen min-h-screen bg-gradient-to-r from-blue-100 via-slate-100 to-blue-200
