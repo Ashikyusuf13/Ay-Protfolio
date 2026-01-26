@@ -18,7 +18,7 @@ import Ashikimg from "./ashik_photo.png";
 import qrcode from "./qrcode_webpage.jpg";
 import tailwind from "./tailwindlogo.png";
 import Password_generator from "./passgen_webpage.jpg";
-import Aygpt from "./Aygpt.png";
+import Aygpt from "./ay-gpt.png";
 
 const assets = {
   arrow_icon,

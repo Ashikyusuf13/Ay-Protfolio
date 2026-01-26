@@ -20,6 +20,13 @@ const AllProjects = () => {
       imageUrl: assets.Ademy,
       projectUrl: "https://ay-ademy.vercel.app/",
     },
+    {
+      title: "AY-GPT",
+      description:
+        "A full-stack AI web application built with React, Tailwind CSS, Node.js, and Express.js, featuring JWT authentication, Stripe-based credit purchases, AI content generation, community image publishing, theme toggling, and fully responsive design",
+      imageUrl: assets.Aygpt,
+      projectUrl: "https://ashik-gpt.vercel.app/",
+    },
   ];
 
   const Projects2 = [
